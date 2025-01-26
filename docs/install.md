@@ -15,6 +15,8 @@ conda activate renderocc
 ```shell
 pip install torch==1.10.1+cu111 torchvision==0.10.1+cu111  -f https://download.pytorch.org/whl/torch_stable.html
 pip  install torch==1.10.1+cu111 torchvision==0.10.1+cu111  -f https://download.pytorch.org/whl/torch_stable.html  -i https://pypi.doubanio.com/simple
+
+pip install torch==1.11.0+cu113 torchvision==0.12.0+cu113 -f https://download.pytorch.org/whl/torch_stable.html -i https://pypi.doubanio.com/simple
 pip install  mmcv-full==1.6.0 -i https://pypi.tuna.tsinghua.edu.cn/simple
 ```
 
